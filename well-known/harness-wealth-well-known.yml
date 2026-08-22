@@ -1,0 +1,108 @@
+generated: '2026-08-22'
+method: probed
+source: live probe of every Harness host reachable from apis.yml
+hit_count: 0
+hosts:
+- host: https://www.harness.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 404
+    file: null
+  soft_404_control:
+    path: /.well-known/zzz-ae-control-30912
+    status: 404
+    bytes: 10952
+    note: Next.js marketing site returns a real 404 for unknown paths — the negatives
+      above are genuine absences, not a catch-all.
+- host: https://app.harness.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 200
+    file: null
+    note: 'HTTP 200 but NOT a document — the client application is a single-page app
+      that answers with an 18,352-byte HTML shell for unmatched paths (identical bytes
+      to /openapi.json and to a random control path). Recorded as a miss.'
+  soft_404_control:
+    path: /openapi.json
+    status: 200
+    bytes: 18352
+    note: SPA catch-all confirmed; every 200 on this host must be read as the shell
+      until the body proves otherwise.
+- host: https://help.harness.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 404
+    file: null
+  soft_404_control:
+    path: /.well-known/zzz-ae-control-28372
+    status: 404
+    bytes: 93934
+    note: HubSpot-hosted Advisor Help Center; returns its branded 404 page for unknown
+      paths.
+note: 'No /.well-known/ document is served on any Harness host. Per the pipeline rule
+  this manifest records the absence but emits NO WellKnown / SecurityTxt / AgentCard
+  pointer in apis.yml — the probe documents an absence and must not be scored as a
+  presence.'

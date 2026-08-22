@@ -64,5 +64,18 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Harness Wealth is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Harness — the company that launched as Harness Wealth, and today a wholly owned business of Multiplier, Inc. — is a New York City firm that runs an advisory platform for tax and wealth practices. It operates three connected surfaces: a marketplace that matches individuals with complex financial situations (equity compensation, liquidity events, business owners, real estate, high net worth) to vetted tax advisors; a client portal and workflow platform that tax firms run their engagements, documents, questionnaires and e-file on; and Harness Wealth Advisers, LLC, an SEC-registered investment adviser that recommends third-party advisers. Harness publishes no public developer program — there is no developer portal, API reference, OpenAPI/GraphQL/AsyncAPI specification, SDK, CLI or webhook documentation on any Harness host, and the product is delivered entirely as an end-user web application at app.harness.co.
+
+- [Website](https://www.harness.co/)
+- [About](https://www.harness.co/about)
+- [Blog](https://www.harness.co/articles)
+- [Support](https://help.harness.co/)
+- [Roadmap](https://harness.canny.io/)
+- [Login](https://app.harness.co/app/)
+- [GitHubOrganization](https://github.com/harness-wealth)
+- [TermsOfService](https://www.harness.co/terms-of-service)
+- [PrivacyPolicy](https://www.harness.co/privacy-policy)
+- [Disclosures](https://www.harness.co/regulatory-disclosures)
+- [Press](https://www.harness.co/press)
+- [LinkedIn](https://linkedin.com/company/harnesswealth)
+- [SecondaryMarket](https://equityzen.com/company/harnesswealth/)

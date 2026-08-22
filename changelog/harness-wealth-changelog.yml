@@ -1,0 +1,23 @@
+generated: '2026-08-22'
+method: probed
+source: https://harness.canny.io/changelog
+scheme: null
+current_version: null
+entry_count: 0
+entries: []
+surfaces:
+- url: https://harness.canny.io/changelog
+  status: 200
+  finding: 'Live Canny changelog surface, publicly reachable, but empty — the page states
+    verbatim: "Harness hasn''t written any changelog entries yet."'
+- url: https://harness.canny.io/
+  status: 200
+  finding: The same Canny workspace carries four public boards (Firm Feature Requests
+    — 149 posts, Firm Reported Bugs & Issues, Commercial Stack Product Requests, Help
+    Center Article Requests) with Under Review / Planned / In Progress / Complete states.
+    This is a real public product roadmap and is wired in apis.yml as type Roadmap.
+- url: https://www.harness.co/changelog
+  status: 404
+note: 'Recorded as an honest zero. No ChangeLog pointer is emitted in apis.yml: the
+  changelog page exists but publishes no entries, and a pointer would assert a change
+  history the provider has not written.'
