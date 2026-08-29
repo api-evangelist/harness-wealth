@@ -11,6 +11,17 @@ description: 'Harness — the company that launched as Harness Wealth, and today
   developer program — there is no developer portal, API reference, OpenAPI/GraphQL/AsyncAPI
   specification, SDK, CLI or webhook documentation on any Harness host, and the product
   is delivered entirely as an end-user web application at app.harness.co.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.harness.co/assets/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/harness-wealth/refs/heads/main/apis.yml
 x-type: company
