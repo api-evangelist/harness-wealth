@@ -43,7 +43,7 @@ created: '2026-08-22'
 modified: '2026-08-22'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Tax
 - Wealth Management
 - Accounting
@@ -61,6 +61,7 @@ tags_raw:
 - Marketplace
 - Professional Services
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
