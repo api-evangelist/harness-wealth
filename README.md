@@ -66,16 +66,82 @@
 
 Harness — the company that launched as Harness Wealth, and today a wholly owned business of Multiplier, Inc. — is a New York City firm that runs an advisory platform for tax and wealth practices. It operates three connected surfaces: a marketplace that matches individuals with complex financial situations (equity compensation, liquidity events, business owners, real estate, high net worth) to vetted tax advisors; a client portal and workflow platform that tax firms run their engagements, documents, questionnaires and e-file on; and Harness Wealth Advisers, LLC, an SEC-registered investment adviser that recommends third-party advisers. Harness publishes no public developer program — there is no developer portal, API reference, OpenAPI/GraphQL/AsyncAPI specification, SDK, CLI or webhook documentation on any Harness host, and the product is delivered entirely as an end-user web application at app.harness.co.
 
+**Areas:** Company · Financial Services · Tax · Wealth Management · Accounting · Investment Advisory · Marketplace · Professional Services · Fintech
+
+## Harness Wealth on APIs.io
+
+Everything profiled for Harness Wealth is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/harness-wealth/](https://apis.io/providers/harness-wealth/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Harness Wealth Domain Security](https://apis.io/security/harness-wealth/harness-wealth-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.harness.co/)
-- [About](https://www.harness.co/about)
-- [Blog](https://www.harness.co/articles)
 - [Support](https://help.harness.co/)
-- [Roadmap](https://harness.canny.io/)
-- [Login](https://app.harness.co/app/)
-- [GitHubOrganization](https://github.com/harness-wealth)
-- [TermsOfService](https://www.harness.co/terms-of-service)
-- [PrivacyPolicy](https://www.harness.co/privacy-policy)
-- [Disclosures](https://www.harness.co/regulatory-disclosures)
-- [Press](https://www.harness.co/press)
-- [LinkedIn](https://linkedin.com/company/harnesswealth)
-- [SecondaryMarket](https://equityzen.com/company/harnesswealth/)
+- [Blog](https://www.harness.co/articles)
+- [Terms of service](https://www.harness.co/terms-of-service)
+- [Privacy policy](https://www.harness.co/privacy-policy)
+- [GitHub](https://github.com/harness-wealth)
+
+## API Evangelist rating
+
+**Kin Score 13.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/harness-wealth/](https://apis.io/providers/harness-wealth/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Harness Wealth: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/harness-wealth/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
